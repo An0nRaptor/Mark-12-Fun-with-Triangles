@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css">
+    <title>Quiz</title>
+  </head>
+  <body>
+    <nav class="navigation">
+        <ul class="nav-items">
+          <li class="list-item-inline">
+            <a style="text-decoration: underline;" class="link link-active" href="/"> Home </a>
+          </li>
+          <li class="list-item-inline">
+            <a class="link" href="../html/isTriangle.html"> Is a Triangle ? </a>
+          </li>
+          <li class="list-item-inline">
+            <a class="link link-active" href="./isTriangle.html"> Triangles Quiz </a>
+          </li>
+          <li class="list-item-inline">
+            <a class="link" href="./hypotenuse.html"> Hypotenuse </a>
+          </li>
+          <li class="list-item-inline">
+            <a class="link" href="./area.html"> Area </a>
+          </li>
+        </ul>
+      </nav>
+    
+      <section class="section1 section2" style="margin-bottom: 12rem;">
+        <div class="div-heading">
+          Let's play a fun quiz game about triangles <span>👇</span>
+          <hr>
+        </div>
+    
+        <button id="btn-get-started"> Click here to start the Quiz Game </button>
+    
+        <div id="quiz-section">
+          <h1>Quiz on Triangles</h1>
+          <h3>You will get 1 point for each correct answer</h3>
+          <hr>
+    
+          <ol>
+            <form id="quiz-form">
+              <li class="question">
+                What is the third angle for the triangle where angle1 = 65° and angle2 = 80° ? <br>
+                <label> <input type="radio" name="question1" value="35°"> 35° </label>
+                <label> <input type="radio" name="question1" value="45°"> 45° </label>
+                <label> <input type="radio" name="question1" value="60°"> 60° </label>
+              </li>
+              <hr>
+    
+              <li class="question">
+                A triangle has angle1 = 25°, angle2 = 45° and angle3 = 110°. What type of triangle is it ? <br>
+                <label> <input type="radio" name="question2" value="Acute triangle"> Acute triangle </label>
+                <label> <input type="radio" name="question2" value="Obtuse triangle"> Obtuse triangle </label>
+                <label> <input type="radio" name="question2" value="Right angled triangle"> Right angled triangle </label>
+              </li>
+              <hr>
+    
+              <li class="question">
+                A triangle that has 2 equal sides is known as <br>
+                <label> <input type="radio" name="question3" value="Equilateral triangle"> Equilateral triangle </label>
+                <label> <input type="radio" name="question3" value="Scalene triangle"> Scalene triangle </label>
+                <label> <input type="radio" name="question3" value="Isosceles triangle"> Isosceles triangle </label>
+              </li>
+              <hr>
+    
+              <li class="question">
+                Area of a triangle with base 'b' and height 'h' is represented by <br>
+                <label> <input type="radio" name="question4" value="1/2 × bh"> 1/2 × bh </label>
+                <label> <input type="radio" name="question4" value="2 + bh"> 2 + bh </label>
+                <label> <input type="radio" name="question4" value="2 × bh"> 2 × bh </label>
+                <label> <input type="radio" name="question4" value="2/bh"> 2/bh </label>
+              </li>
+              <hr>
+    
+              <li class="question">
+                A triangle has angle1 = 50°, angle2 = 60° and angle3 = 70°. What type of triangle is it ? <br>
+                <label> <input type="radio" name="question5" value="Right angled triangle"> Right angled triangle </label>
+                <label> <input type="radio" name="question5" value="Isosceles triangle"> Isosceles triangle </label>
+                <label> <input type="radio" name="question5" value="Acute triangle"> Acute triangle </label>
+                <label> <input type="radio" name="question5" value="Obtuse triangle"> Obtuse triangle </label>
+              </li>
+              <hr>
+    
+              <li class="question">
+                If a triangle has an angle of 90 degrees, what is it called ? <br>
+                <label> <input type="radio" name="question6" value="Obtuse triangle"> Obtuse triangle </label>
+                <label> <input type="radio" name="question6" value="Acute triangle"> Acute triangle </label>
+                <label> <input type="radio" name="question6" value="Right angled triangle"> Right angled triangle </label>
+              </li>
+              <hr>
+    
+              <li class="question">
+                How many obtuse angles can a triangle have at maximum ? <br>
+                <label> <input type="radio" name="question7" value="Three obtuse angles"> Three obtuse angles </label>
+                <label> <input type="radio" name="question7" value="Zero obtuse angles"> Zero obtuse angles </label>
+                <label> <input type="radio" name="question7" value="One obtuse angle"> One obtuse angle </label>
+                <label> <input type="radio" name="question7" value="Two obtuse angles"> Two obtuse angles </label>
+              </li>
+              <hr>
+    
+              <li class="question">
+                The area of a triangle with base 25 cm and height 55 cm is <br>
+                <label> <input type="radio" name="question8" value="356.5 cm²"> 356.5 cm² </label>
+                <label> <input type="radio" name="question8" value="500 cm²"> 500 cm² </label>
+                <label> <input type="radio" name="question8" value="687.5 cm²"> 687.5 cm² </label>
+                <label> <input type="radio" name="question8" value="188.2 m²"> 188.2 m² </label>
+              </li>
+            </form>
+          </ol>
+        </div>
+    
+        <button id="btn-submit-quiz"> Submit Answers </button>
+    
+        <div id="output-text"></div>
+      </section>
+    
+      <script src="/Js/quiz.js" type="text/javascript"></script>
+    </body>
+  </body>
+</html>
